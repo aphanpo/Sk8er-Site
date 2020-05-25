@@ -234,6 +234,7 @@ i {
 .right {
     justify-content: space-between;
     align-content: center;
+    margin: 20px;
 
 }
 
@@ -241,17 +242,23 @@ i {
     text-transform: uppercase;
 }
 
+input {
+    width: 384px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+#left {
+    margin-left: 60px;
+}
+
 #left > div {
     color: #CCC;
-    background: grey;
+    /* background: grey; */
     font-size: 20px;
-    display: flex;
-    width: 30px;
-    height: 30px;
-    justify-content: center;
+    /* display: flex; */
     align-items: center;
-    margin: 2px;
-    flex-direction: row;
+    margin: 1px;
 } 
 
 #moreinfo {
@@ -259,8 +266,19 @@ i {
     justify-content: center;
 }
 
-#submit {
-    background: red;
+.fb, .rss, .twitter, .youtube {
+    margin-top: 30px;
+    background-color: grey;
+    padding: 7px;
+}
+
+button {
+    background: darkred;
     color: white;
+    width: 170px;
+    margin-left: 214px;
+    border:darkred;
+    height: 30px;
+    margin-top: 20px;
 }
 
